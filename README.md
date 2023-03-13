@@ -12,4 +12,15 @@ The solveBoard method takes a partially filled Sudoku board as input and returns
 
 The CheckNumberInRow, CheckNumberInColumn, and CheckNumberInBox methods are helper methods that check if a number already exists in a given row, column, or sub-grid. The showBoard method is a helper method that prints the Sudoku board to the console in a human-readable format.
 
-![alt text](![alt text](http://url/to/img.png))
+## How it works
+1. You need to download the code, then put it in the board[][] array<br />
+![Inniate the game](SudokuSolver101/Inniate%20the%20game.jpg)
+
+2. You can now build & run the code in your preferred IDE. The first out put will be the newly-inputted sudoku board. <br />
+![It will look something like this](SudokuSolver101/it%20will%20look%20something%20like%20this.jpg)
+
+3. Next, the program will determine if there are any possible answer. If it doesn't have any solutions, then it will out put "It's an Unsolvable Board!"<br>
+![Find Answer](SudokuSolver101/Find%20answer%20==%20Solved%20Successfully!.jpg)
+
+4. Finally, it will output the sudoku board along with the numbers as the final answer! <br>
+![Print Answers](SudokuSolver101/printed%20sudoku%20with%20all%20the%20answers.jpg) 
